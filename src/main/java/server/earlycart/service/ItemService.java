@@ -58,7 +58,7 @@ public class ItemService {
         try {
             db.query("select * from items order by rand() limit ?;",
                     rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6)));},
-                    limit);
+                    Integer.parseInt(limit));
             return itemList;
         } catch (Exception e) {
             return null;
@@ -67,8 +67,9 @@ public class ItemService {
 
     public String getItemListByChatGPT(String id) {
 
-        StringBuffer data = new StringBuffer();
+        StringBuilder data = new StringBuilder();
         data.append("id,name\\n");
+
         try {
             db.query("select * from items where id != ?;",
                     rs -> {
@@ -79,15 +80,37 @@ public class ItemService {
         }
 
         String itemName = getItemById(id).getName();
-        String prompt =
-                "\\n'" + itemName + "' 함께 구입하면 어울리는 상품을 추천해줘." +
+        String prompt = "\\n'" + itemName + "' 함께 구입하면 어울리는 상품을 추천해줘." +
                 "창의적으로 상품을 추천해줘." +
                 "추천순위가 높은 상품은 앞쪽으로 정렬해줘." +
                 "대답은 id,name,추천이유로 csv 데이터만 출력해줘." +
                 "각 값은 따옴표로 감싸줘.";
         String result = chatGPTService.getResponse(data.toString() + prompt);
-        System.out.println(result);
         return result;
+    }
+
+    public ArrayList<Item> getItemListByChatGPT() {
+
+        StringBuilder data = new StringBuilder();
+        data.append("id,name\\n");
+        try {
+            db.query("select * from items;",
+                    rs -> { data.append(rs.getInt(1) + "," + rs.getString(3) + "\\n"); });
+        } catch (Exception e) {
+            return null;
+        }
+
+        String prompt = "\\n 25살 남성에게 잘 팔리는 상품을 15개 추천해줘." +
+                "창의적으로 상품을 추천해줘." +
+                "추천순위가 높은 상품은 앞쪽으로 정렬해줘." +
+                "대답은 id만 콤마로 구분해서 출력해줘. 띄어쓰기 없이";
+        String result = chatGPTService.getResponse(data.toString() + prompt);
+
+        ArrayList<Item> itemList = new ArrayList<>();
+        for (int i = 0; i < result.split(",").length; i++) {
+            itemList.add(getItemById(result.split(",")[i]));
+        }
+        return itemList;
     }
 
 

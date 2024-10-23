@@ -3,6 +3,22 @@
 
 # API Reference
 
+## 사용방법
+안드로이드 프로젝트에 model 패키지(폴더)를 만들고 [model](https://github.com/jaypark9490/EarlyCart/tree/main/src/main/java/server/earlycart/model) 해당 파일들을 모두 import
+
+[HttpResult.class]() 파일을 안드로이드 프로젝트에 import
+
+ex)
+
+String session = new HttpResult().execute("user/login?id=user&pw=1234").get();
+
+User user = new ObjectMapper().readValue(new HttpResult().execute("user?session=" + session).get(), User.class);
+
+Item item = new ObjectMapper().readValue(new HttpResult().execute("item?id=10").get(), Item.class);
+
+ArrayList<Item> itemList = new ObjectMapper().readValue(new HttpResult().execute("category").get(), new TypeReference<ArrayList<Item>>() {});
+
+
 ## 회원
 ### 회원가입
 
