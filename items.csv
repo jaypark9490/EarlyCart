@@ -1,0 +1,103 @@
+id,category,name,price,stock,image
+,정육_축산,돼지고기 삼겹살 100g,2880,50,https://i.imgur.com/hyo6kGc.png
+,정육_축산,돼지고기 목살 100g,2480,50,https://i.imgur.com/KQdaWNT.png
+,정육_축산,한우 갈비살 100g,15000,50,https://i.imgur.com/3bagcpH.png
+,정육_축산,소고기 안심 100g,6000,50,https://i.imgur.com/vVqaqWf.png
+,정육_축산,닭가슴살 1kg,7000,50,https://i.imgur.com/3dJiQUB.png
+,정육_축산,돼지고기 앞다리살 1kg,40000,50,https://i.imgur.com/8zIjvs1.png
+,정육_축산,오리고기 1kg,20000,50,https://i.imgur.com/cl9NjIq.png
+,정육_축산,소고기 차돌박이 1kg,30000,50,https://i.imgur.com/2AAMu8g.png
+,정육_축산,돼지고기 항정살 1kg,22000,50,https://i.imgur.com/n0Nb04q.png
+,정육_축산,닭날개 1kg,6000,50,https://i.imgur.com/UrvBjVJ.png
+,해산_수산,연어 1kg,25000,50,https://i.imgur.com/KCbrQE9.png
+,해산_수산,참치 1kg,28000,50,https://i.imgur.com/wZmRI02.png
+,해산_수산,고등어 1마리,7500,50,https://i.imgur.com/GUVFUE1.png
+,해산_수산,갈치 1마리,15000,50,https://i.imgur.com/NTOt9jb.png
+,해산_수산,조기 1마리,12000,50,https://i.imgur.com/y3hJp9Q.png
+,해산_수산,광어 1kg,22000,50,https://i.imgur.com/unjglXd.png
+,해산_수산,명태 1마리,8000,50,https://i.imgur.com/ZlYsDsZ.png
+,해산_수산,전복 1kg,20000,50,https://i.imgur.com/xthQ3w5.png
+,해산_수산,새우 1kg,20000,50,https://i.imgur.com/3jnXxYk.png
+,해산_수산,바지락 1kg,5000,50,https://i.imgur.com/1syzBbA.png
+,채소_과일,상추 200g,2500,50,https://i.imgur.com/hqNoyQb.png
+,채소_과일,시금치 1단,3000,50,https://i.imgur.com/qU5qEQr.png
+,채소_과일,양파 1개,1500,50,https://i.imgur.com/rhNooMj.png
+,채소_과일,당근 1개,1200,50,https://i.imgur.com/WXBrrPS.png
+,채소_과일,감자 1개,2000,50,https://i.imgur.com/8RyVR3D.png
+,채소_과일,양배추 1개,4500,50,https://i.imgur.com/DZYLuZA.png
+,채소_과일,토마토 500g,4000,50,https://i.imgur.com/A0U3VhE.png
+,채소_과일,파프리카 1개,3500,50,https://i.imgur.com/hGZC1pN.png
+,채소_과일,마늘 1kg,10000,50,https://i.imgur.com/praMSGw.png
+,채소_과일,고추 300g,6000,50,https://i.imgur.com/EKdQomG.png
+,주방_생활,케라시스 퍼퓸 샴푸 체리블라썸,6500,50,https://i.imgur.com/MjsG4dD.png
+,주방_생활,케라시스 퍼퓸 린스 체리블라썸,7100,50,https://i.imgur.com/d77D4PS.png
+,주방_생활,피죤 레귤러 섬유유연제 핑크로즈,8700,50,https://i.imgur.com/F1ZfDKN.png
+,주방_생활,다우니 프리미엄 실내건조 액체형 세제,12000,50,https://i.imgur.com/wZYFs2f.png
+,주방_생활,퍼실 딥 클린 라벤더젤 플러스 드럼용 액상세제,14800,50,https://i.imgur.com/fwZzBdq.png
+,주방_생활,잘풀리는집 맥스소프트 화장지,16500,50,https://i.imgur.com/UhBACDl.png
+,주방_생활,페브리즈 에어 실내 탈취제 다우니향,14000,50,https://i.imgur.com/iTu0vZL.png
+,주방_생활,페브리즈 섬유탈취제 강력탈취 상쾌한향,5000,50,https://i.imgur.com/F65jsKV.png
+,주방_생활,페브리즈 섬유탈취제 강력탈취 미스티크,7500,50,https://i.imgur.com/HTFZkpM.png
+,주방_생활,도브 뷰티너리싱 바디워시,6200,50,https://i.imgur.com/11Jzr8N.png
+,주방_생활,세타필 모이스춰라이징 바디로션,11000,50,https://i.imgur.com/LBjRljD.png
+,주방_생활,바세린 오리지널 프로텍팅 젤리,3000,50,https://i.imgur.com/OB4OCIX.png
+,주방_생활,2080 오리지날 미세모 칫솔,6800,50,https://i.imgur.com/H0quLBp.png
+,주방_생활,페리오 뉴 후레쉬 플러스 치약,1500,50,https://i.imgur.com/mjNP0Q7.png
+,주방_생활,도루코 쓰리터치 일회용 3날 면도기,1200,50,https://i.imgur.com/hmv9e36.png
+,주방_생활,질레트 센서티브 2 in 1 퓨어스포츠 쉐이빙젤 면도젤,6000,50,https://i.imgur.com/PCblAav.png
+,주방_생활,니베아 맨 센서티브 쉐이빙 폼,6600,50,https://i.imgur.com/Kl6Dumu.png
+,가전_디지털,파테크 초고출력 헤어 드라이어,23900,50,https://i.imgur.com/bakkPUH.png
+,가전_디지털,바비리스 다이아몬드 세라믹 스트레이트너 고데기,28900,50,https://i.imgur.com/ASW9tdI.png
+,가전_디지털,필립스 SkinIQ 7000 시리즈 전기면도기,168000,50,https://i.imgur.com/YOSH0Vf.png
+,가전_디지털,삼성전자 15W PD 정품 C타입 고속 충전기 케이블 포함,14000,50,https://i.imgur.com/2ck5vrz.png
+,가전_디지털,BRUNO 쿨터치 무선 전기포트,27800,50,https://i.imgur.com/QpYMgie.png
+,가전_디지털,쿠쿠 에어프라이어,75600,50,https://i.imgur.com/43q36bz.png
+,가전_디지털,키친플라워 쿠킨 유리 티포트,19800,50,https://i.imgur.com/tD0754C.png
+,가전_디지털,쿠쿠 전기압력밥솥,143000,50,https://i.imgur.com/u5Gv1xL.png
+,가전_디지털,쿠쿠 전자레인지 다이얼식,57000,50,https://i.imgur.com/7cil9xJ.png
+,가전_디지털,신일 좌석용 선풍기,78900,50,https://i.imgur.com/CC8GOKz.png
+,주류_음료,삼다수 2L,1080,50,https://i.imgur.com/mhYpYjE.png
+,주류_음료,삼다수 500ml,480,50,https://i.imgur.com/XWLzo3O.png
+,주류_음료,칠성사이다 1L,2580,50,https://i.imgur.com/IZBN45S.png
+,주류_음료,칠성사이다 500ml,1880,50,https://i.imgur.com/XTj8j3r.png
+,주류_음료,칠성사이다 제로 1L,2580,50,https://i.imgur.com/fo98Y0B.png
+,주류_음료,칠성사이다 제로 500ml,1880,50,https://i.imgur.com/LyyS79N.png
+,주류_음료,코카콜라 500ml,2080,50,https://i.imgur.com/4fx7DKN.png
+,주류_음료,코카콜라 제로 500ml,2080,50,https://i.imgur.com/40JNjL2.png
+,주류_음료,코카콜라 몬스터 에너지 330ml,2180,50,https://i.imgur.com/G6s4OeJ.png
+,주류_음료,칸타타 스위트 아메리카노 275ml,2380,50,https://i.imgur.com/y0gOjdQ.png
+,주류_음료,환타 오렌지 355ml,840,50,https://i.imgur.com/aqwLcUW.png
+,주류_음료,밀키스 500ml,1680,50,https://i.imgur.com/zKxXgB3.png
+,주류_음료,서울우유 1L,2960,50,https://i.imgur.com/5clLApl.png
+,주류_음료,서울우유 액상 요구르트 65ml * 20,3100,50,https://i.imgur.com/woi8Mu5.png
+,주류/음료,델몬트 알로에 400ml,2180,50,https://i.imgur.com/Crjnt5F.png
+,스낵_가공,오리온 초코파이 12입 468g,4320,50,https://i.imgur.com/5puNX7n.png
+,스낵_가공,해태 오예스 12입 360g,4780,50,https://i.imgur.com/fnGKmk2.png
+,스낵_가공,해태 홈런볼 초코 46g,1360,50,https://i.imgur.com/2sqAEDe.png
+,스낵_가공,롯데 빼빼로 오리지날 54g,1440,50,https://i.imgur.com/Gt27tBp.png
+,스낵_가공,오리온 포카칩 소금 66g,1360,50,https://i.imgur.com/rp1UlAt.png
+,스낵_가공,오리온 스윙칩 볶음 고추장맛 60g,1200,50,https://i.imgur.com/DRnHqEo.png
+,스낵_가공,해태 허니버터칩 60g,2000,50,https://i.imgur.com/7JCw9Nj.png
+,스낵_가공,오리온 다이제 초코 225g,2000,50,https://i.imgur.com/xHeyuom.png
+,스낵_가공,오리온 오감자 그라탕맛 45g,1000,50,https://i.imgur.com/cf2m3Y8.png
+,스낵_가공,크라운 쿠크다스 비엔나 커피 289g,3680,50,https://i.imgur.com/gal6Z7d.png
+,스낵_가공,농심 포스틱 84g,1360,50,https://i.imgur.com/eyQACgS.png
+,스낵_가공,농심 새우깡 90g,1100,50,https://i.imgur.com/y5UP6dC.png
+,스낵_가공,오리온 눈을감자 페퍼솔트맛 96g,2700,50,https://i.imgur.com/fah3pIC.png
+,스낵_가공,오뚜기 뿌셔뿌셔 양념치킨맛 90g,880,50,https://i.imgur.com/hTkKty6.png
+,스낵_가공,크라운 화이트하임 18개입 284g,4780,50,https://i.imgur.com/2e667Qz.png
+,사무_문구,평화 양손가위,2200,50,https://i.imgur.com/KSgomXW.png
+,사무_문구,이젠 레이지스타 커터칼,1500,50,https://i.imgur.com/gpWDXpx.png
+,사무_문구,제트스트림 검정 0.38mm,1700,50,https://i.imgur.com/wbUoxIt.png
+,사무_문구,문화 제도샤프 2본 0.5mm,2200,50,https://i.imgur.com/ZKC4odc.png
+,사무_문구,동아 오피스 지우개연필 2B 6입,1600,50,https://i.imgur.com/P3qjTgE.png
+,사무_문구,모나미 에딩슈퍼 형광펜 파스텔 6색 세트,2400,50,https://i.imgur.com/7rz1kaC.png
+,사무_문구,모닝 더베이직노트,1000,50,https://i.imgur.com/BcGuSyN.png
+,사무_문구,3M 포스트잇 노랑 51x76mm 100매,1600,50,https://i.imgur.com/0aEEhWC.png
+,사무_문구,더블에이 복사지 A4 500매,7100,50,https://i.imgur.com/4ubcLCB.png
+,사무_문구,프롬 커팅안전자 모노 30cm,1700,50,https://i.imgur.com/huk7gSh.png
+,사무_문구,평화 피스클립 30g,400,50,https://i.imgur.com/D2YrhOT.png
+,사무_문구,아모스 딱풀 8g 3입,1250,50,https://i.imgur.com/avXnWu4.png
+,사무_문구,A4 파일폴더 투명 서류 분류파일,1400,50,https://i.imgur.com/4WHvxtU.png
+,사무_문구,맥스 스테플러 MAX HD-10D 그레이,8400,50,https://i.imgur.com/D2UjqPc.png
+,사무_문구,모나미그리픽스 지우개 (소형),1350,50,https://i.imgur.com/yqoYBZ9.png

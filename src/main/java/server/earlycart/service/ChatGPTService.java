@@ -3,7 +3,6 @@ package server.earlycart.service;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -25,14 +24,11 @@ public class ChatGPTService {
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setRequestProperty("Authorization", "Bearer " + API_KEY);
             connection.setDoOutput(true);
-
             String jsonInputString = String.format("{\"model\": \"gpt-4o-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"%s\"}]}", input);
-
             try (OutputStream os = connection.getOutputStream()) {
                 byte[] inputBytes = jsonInputString.getBytes("utf-8");
                 os.write(inputBytes, 0, inputBytes.length);
             }
-
             int responseCode = connection.getResponseCode();
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 try (BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), "utf-8"))) {
@@ -41,16 +37,13 @@ public class ChatGPTService {
                     while ((responseLine = br.readLine()) != null) {
                         response.append(responseLine.trim());
                     }
-
-                    // JSON 응답에서 content 추출
                     JSONObject jsonResponse = new JSONObject(response.toString());
                     return jsonResponse.getJSONArray("choices").getJSONObject(0).getJSONObject("message").getString("content");
                 }
             } else {
-                return "Error: " + responseCode; // 오류 처리
+                return "Error: " + responseCode;
             }
         } catch (Exception e) {
-            e.printStackTrace();
             return "Exception: " + e.getMessage();
         }
     }
