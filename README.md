@@ -38,3 +38,5 @@ ex) http://123.123.123.123/user?session=Dg9FdgY2Tsh
 null - 잘못된 세션, 오류
 
 User - 회원정보 반환, JSON
+
+## 상품
