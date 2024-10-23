@@ -42,7 +42,7 @@ User - 회원정보 반환, JSON
 
 ## 상품
 
-### id 상품 검색
+### 상품 id 검색
 
 item/{id}
 
@@ -66,7 +66,7 @@ null - 오류
 
 Item List - 상품 리스트 반환, JSON
 
-### name 상품 검색
+### 상품 name 검색
 
 item/search/{name}
 
