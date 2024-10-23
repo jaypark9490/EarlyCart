@@ -23,9 +23,10 @@ user/login?id=아이디&pw=비밀번호
 ex) http://123.123.123.123/login?id=user&pw=1234
 
 **Response Code**
+
 0 - 로그인 실패, 오류
 
-세션값 문자열 - 로그인 성공
+세션값 - 로그인 성공, 세션값 반환, 문자열
 
 ### 회원정보
 user?session=세션값
@@ -36,4 +37,4 @@ ex) http://123.123.123.123/user?session=Dg9FdgY2Tsh
 
 null - 잘못된 세션, 오류
 
-User JSON - 회원정보 반환
+User - 회원정보 반환, JSON
