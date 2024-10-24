@@ -52,7 +52,7 @@ ex) http://158.180.94.14/user?session=Dg9FdgY2Tsh
 
 **Response Code**
 
-null - 잘못된 세션, 오류
+0 - 잘못된 세션, 오류
 
 User - 회원정보 반환, JSON
 
@@ -73,7 +73,7 @@ Item - 상품 반환, JSON
 
 item/category/{category}
 
-ex) http://158.180.94.14/item/category/정육
+ex) http://158.180.94.14/item/category/정육_축산
 
 **Response Code**
 

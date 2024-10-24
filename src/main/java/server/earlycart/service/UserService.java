@@ -12,17 +12,16 @@ public class UserService {
     @Autowired
     JdbcTemplate db;
 
-    public int register(String id, String pw, String name, String birth, String phone) {
+    public String register(String id, String pw, String name, String birth, String phone) {
         try {
             boolean checkId = db.queryForObject("select count(*) from users where id = ?;", Integer.class, id) > 0;
-            if (checkId) return 2;
+            if (checkId) return "2";
             else {
                 db.update("insert into users values (?, ?, ?, ?, ?, 'user', null);", id, pw, name, birth, phone);
-                return 0;
+                return "1";
             }
         } catch (Exception e) {
-            System.out.println(e);
-            return 1;
+            return "0";
         }
     }
 
@@ -31,9 +30,9 @@ public class UserService {
             boolean checkLogin = pw.equals(db.queryForObject("select pw from users where id = ?;", String.class, id));
             if (checkLogin) {
                 return updateSession(id);
-            } else return null;
+            } else return "0";
         } catch (Exception e) {
-            return null;
+            return "0";
         }
     }
 
@@ -50,7 +49,7 @@ public class UserService {
             db.update("update users set session = ? where id = ?;", session.toString(), id);
             return session.toString();
         } catch (Exception e) {
-            return null;
+            return "0";
         }
     }
 

@@ -14,8 +14,7 @@ public class UserController {
 
     @GetMapping("user/register")
     public String getUserRegister(@RequestParam String id, String pw, String name, String birth, String phone) {
-        userService.register(id, pw, name, birth, phone);
-        return "회원가입 성공";
+        return userService.register(id, pw, name, birth, phone);
     }
 
     @GetMapping("user/login")
