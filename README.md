@@ -24,7 +24,7 @@ ArrayList<Item> itemList = new ObjectMapper().readValue(new HttpResult().execute
 
 user/register?id=아이디&pw=비밀번호&name=이름&birth=생년월일&phone=전화번호
 
-ex) http://123.123.123.123/register?id=user&pw=1234&name=박재정&birth=1999-06-02&phone=010-3562-6667
+ex) http://158.180.94.14/register?id=user&pw=1234&name=박재정&birth=1999-06-02&phone=010-3562-6667
 
 **Response Code**
 
@@ -37,7 +37,7 @@ ex) http://123.123.123.123/register?id=user&pw=1234&name=박재정&birth=1999-06
 ### 로그인 세션
 user/login?id=아이디&pw=비밀번호
 
-ex) http://123.123.123.123/login?id=user&pw=1234
+ex) http://158.180.94.14/login?id=user&pw=1234
 
 **Response Code**
 
@@ -48,7 +48,7 @@ ex) http://123.123.123.123/login?id=user&pw=1234
 ### 회원정보
 user?session=세션값
 
-ex) http://123.123.123.123/user?session=Dg9FdgY2Tsh
+ex) http://158.180.94.14/user?session=Dg9FdgY2Tsh
 
 **Response Code**
 
@@ -61,7 +61,7 @@ User - 회원정보 반환, JSON
 
 item/{id}
 
-ex) http://123.123.123.123/item/70
+ex) http://158.180.94.14/item/70
 
 **Response Code**
 
@@ -73,7 +73,7 @@ Item - 상품 반환, JSON
 
 item/category/{category}
 
-ex) http://123.123.123.123/item/category/정육
+ex) http://158.180.94.14/item/category/정육
 
 **Response Code**
 
@@ -85,7 +85,7 @@ Item List - 상품 리스트 반환, JSON
 
 item/search/{name}
 
-ex) http://123.123.123.123/item/search/고기
+ex) http://158.180.94.14/item/search/고기
 
 **Response Code**
 
