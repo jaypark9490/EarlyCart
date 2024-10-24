@@ -24,7 +24,7 @@ ArrayList<Item> itemList = new ObjectMapper().readValue(new HttpResult().execute
 
 user/register?id=아이디&pw=비밀번호&name=이름&birth=생년월일&phone=전화번호
 
-ex) http://158.180.94.14/register?id=user&pw=1234&name=박재정&birth=1999-06-02&phone=010-3562-6667
+ex) http://158.180.94.14/user/register?id=user&pw=1234&name=박재정&birth=1999-06-02&phone=010-3562-6667
 
 **Response Code**
 
@@ -37,7 +37,7 @@ ex) http://158.180.94.14/register?id=user&pw=1234&name=박재정&birth=1999-06-0
 ### 로그인 세션
 user/login?id=아이디&pw=비밀번호
 
-ex) http://158.180.94.14/login?id=user&pw=1234
+ex) http://158.180.94.14/user/login?id=user&pw=1234
 
 **Response Code**
 
