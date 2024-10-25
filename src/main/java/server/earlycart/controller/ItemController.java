@@ -30,7 +30,7 @@ public class ItemController {
     }
 
     @GetMapping("item/random/{limit}")
-    public ArrayList<Item> itemListByRandom(@PathVariable String limit) {
+    public ArrayList<Item> itemListByRandom(@PathVariable int limit) {
         return itemService.getItemListByRandom(limit);
     }
 
@@ -41,6 +41,7 @@ public class ItemController {
 
     @GetMapping("item/chatgpt")
     public ArrayList<Item> chatgpt() {
-        return itemService.getItemListByChatGPT();
+        return itemService.getItemListByRandom(15);
+        //return itemService.getItemListByChatGPT();
     }
 }

@@ -53,12 +53,12 @@ public class ItemService {
         }
     }
 
-    public ArrayList<Item> getItemListByRandom(String limit) {
+    public ArrayList<Item> getItemListByRandom(int limit) {
         ArrayList<Item> itemList = new ArrayList<>();
         try {
             db.query("select * from items order by rand() limit ?;",
                     rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6)));},
-                    Integer.parseInt(limit));
+                    limit);
             return itemList;
         } catch (Exception e) {
             return null;

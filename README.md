@@ -8,6 +8,8 @@
 
 [HttpResult.class]() 파일을 안드로이드 프로젝트에 import
 
+HttpResult.class 에 IP는 158.180.94.14 로 변경후 사용
+
 ex)
 
 String session = new HttpResult().execute("user/login?id=user&pw=1234").get();
