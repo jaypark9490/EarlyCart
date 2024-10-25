@@ -65,13 +65,13 @@ public class ItemService {
         }
     }
 
-    public String getItemListByChatGPT(String id) {
+    public ArrayList<Item> getItemListTest(String id) {
 
         StringBuilder data = new StringBuilder();
         data.append("id,name\\n");
 
         try {
-            db.query("select * from items where id != ?;",
+            db.query("select * from items;",
                     rs -> {
                         data.append(rs.getInt(1) + "," + rs.getString(3) + "\\n");},
                     id);
@@ -80,40 +80,25 @@ public class ItemService {
         }
 
         String itemName = getItemById(id).getName();
-        String prompt = "\\n'" + itemName + "' 함께 구입하면 어울리는 상품을 추천해줘." +
-                "창의적으로 상품을 추천해줘." +
-                "추천순위가 높은 상품은 앞쪽으로 정렬해줘." +
-                "대답은 id,name,추천이유로 csv 데이터만 출력해줘." +
-                "각 값은 따옴표로 감싸줘.";
-        String result = chatGPTService.getResponse(data.toString() + prompt);
-        return result;
-    }
 
-    public ArrayList<Item> getItemListByChatGPT() {
+        String prompt = "\\n'" + itemName + "'을 구입했을때 활용방안을 여러가지 설명해줘. 활용방안을 최대한 자세하게 100자 이내로 답변해줘. 답변할때 내가 말한 상품의 단위는 빼줘." +
+                "\\n앞에 상품과 함께 추가로 구매하면 좋을것 같은 상품도 추천해줘. 추천상품을 최대한 자세하게 100자 이내로 설명해주고, 답변 맨 뒤에 추천상품 id 목록을 띄어쓰기 없이 콤마로 구분해서 추가해줘. 적어도 5개 이상의 상품을 추천해주고, 추천도가 높은 상품은 목록의 앞쪽으로 정렬해줘." +
+                "답변에 활용방안과 추천상품 id를 '<split>' 로 구분할수 있게 대답해줘. 예를들면, '활용방안 + 추천상품 <split>1,2,3,4,5' 이것처럼 답변해줘." +
+                "모든 답변은 존댓말로 해줘.";
 
-        StringBuilder data = new StringBuilder();
-        data.append("id,name\\n");
-        try {
-            db.query("select * from items;",
-                    rs -> { data.append(rs.getInt(1) + "," + rs.getString(3) + "\\n"); });
-        } catch (Exception e) {
-            return null;
-        }
-
-        String prompt = "\\n 25살 남성에게 잘 팔리는 상품을 15개 추천해줘." +
-                "창의적으로 상품을 추천해줘." +
-                "추천순위가 높은 상품은 앞쪽으로 정렬해줘." +
-                "대답은 id만 콤마로 구분해서 출력해줘. 띄어쓰기 없이";
-        String result = chatGPTService.getResponse(data.toString() + prompt);
+        String[] result = chatGPTService.getResponse(data.toString() + prompt).split("<split>");
 
         ArrayList<Item> itemList = new ArrayList<>();
-        for (int i = 0; i < result.split(",").length; i++) {
-            itemList.add(getItemById(result.split(",")[i]));
+
+        itemList.add(new Item(9999, result[0], null, 0, 0, null));
+
+        for (int i = 0; i < result[1].split(",").length; i++) {
+            if (result[1].split(",")[i] == id) continue;
+            itemList.add(getItemById(result[1].split(",")[i]));
         }
+
         return itemList;
     }
-
-
 
 
 }

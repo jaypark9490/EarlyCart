@@ -35,8 +35,8 @@ public class ItemController {
     }
 
     @GetMapping("item/chatgpt/{id}")
-    public String chatgpt(@PathVariable String id) {
-        return itemService.getItemListByChatGPT(id);
+    public ArrayList<Item> chatgpt(@PathVariable String id) {
+        return itemService.getItemListTest(id);
     }
 
     @GetMapping("item/chatgpt")

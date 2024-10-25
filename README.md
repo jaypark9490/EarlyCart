@@ -56,7 +56,7 @@ ex) http://158.180.94.14/user?session=Dg9FdgY2Tsh
 
 0 - 잘못된 세션, 오류
 
-User - 회원정보 반환, JSON
+User - 회원정보 반환, JSON3
 
 ## 상품
 ### id 상품 검색
