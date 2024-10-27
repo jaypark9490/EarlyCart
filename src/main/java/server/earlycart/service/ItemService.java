@@ -114,6 +114,8 @@ public class ItemService {
             return null;
         }
 
+        System.out.println(data.toString());
+
         return chatGPTService.getResponse(data.toString() + "\\n'" + id);
     }
 

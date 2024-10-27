@@ -21,6 +21,7 @@ public class UserService {
                 return "1";
             }
         } catch (Exception e) {
+            System.out.println(e.toString());
             return "0";
         }
     }
@@ -57,7 +58,7 @@ public class UserService {
         try {
             User user = db.queryForObject("select * from users where session = ?;",
                     (rs, row) -> {
-                        return new User(rs.getString(1), null, rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), null);},
+                        return new User(rs.getString(1), "", rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), "");},
                     session);
             return user;
         } catch (Exception e) {
