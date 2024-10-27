@@ -39,6 +39,11 @@ public class ItemController {
         return itemService.getItemListTest(id);
     }
 
+    @GetMapping("item/chatgpt2/{id}")
+    public String chatgpt2(@PathVariable String id) {
+        return itemService.getItemListTest2(id);
+    }
+
     @GetMapping("item/chatgpt")
     public ArrayList<Item> chatgpt() {
         return itemService.getItemListByRandom(15);
