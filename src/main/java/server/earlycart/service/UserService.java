@@ -58,7 +58,7 @@ public class UserService {
         try {
             User user = db.queryForObject("select * from users where session = ?;",
                     (rs, row) -> {
-                        return new User(rs.getString(1), "", rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), "");},
+                        return new User(rs.getString(1), "null", rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), "null");},
                     session);
             return user;
         } catch (Exception e) {
