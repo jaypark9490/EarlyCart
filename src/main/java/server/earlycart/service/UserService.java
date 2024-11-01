@@ -21,7 +21,6 @@ public class UserService {
                 return "1";
             }
         } catch (Exception e) {
-            System.out.println(e.toString());
             return "0";
         }
     }
@@ -40,7 +39,7 @@ public class UserService {
     public String updateSession(String id) {
         try {
             Random random = new Random();
-            StringBuffer session = new StringBuffer();
+            StringBuilder session = new StringBuilder();
             for (int i = 1; i <= 100; i++) {
                 int result = random.nextInt(3);
                 if (result == 0) session.append((char) (random.nextInt(26) + 65));
@@ -58,7 +57,7 @@ public class UserService {
         try {
             User user = db.queryForObject("select * from users where session = ?;",
                     (rs, row) -> {
-                        return new User(rs.getString(1), "null", rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), "null");},
+                        return new User(rs.getString(1), null, rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), null);},
                     session);
             return user;
         } catch (Exception e) {

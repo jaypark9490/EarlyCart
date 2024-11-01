@@ -13,12 +13,12 @@ public class UserController {
     UserService userService;
 
     @GetMapping("user/register")
-    public String getUserRegister(@RequestParam String id, String pw, String name, String birth, String phone) {
+    public String registerUser(@RequestParam String id, String pw, String name, String birth, String phone) {
         return userService.register(id, pw, name, birth, phone);
     }
 
     @GetMapping("user/login")
-    public String getUserLogin(@RequestParam String id, String pw) {
+    public String loginUser(@RequestParam String id, String pw) {
         return userService.login(id, pw);
     }
 

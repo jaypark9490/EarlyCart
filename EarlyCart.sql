@@ -25,9 +25,8 @@ INSERT INTO categories (name, image) VALUES
 ('해산_수산', 'https://i.imgur.com/YTmfYCW.png'),
 ('스낵_가공', 'https://i.imgur.com/c1hEYGO.png'),
 ('주류_음료', 'https://i.imgur.com/rowP4bI.png'),
-('주방_생활', 'https://i.imgur.com/Y3Sj6uv.png'),
-('사무_문구', 'https://i.imgur.com/GYGMU2k.png'),
-('가전_디지털', 'https://i.imgur.com/08O81G4.png');
+('생활_가전', 'https://i.imgur.com/Y3Sj6uv.png'),
+('사무_문구', 'https://i.imgur.com/GYGMU2k.png');
 
 CREATE TABLE items (
     id INT AUTO_INCREMENT PRIMARY KEY,

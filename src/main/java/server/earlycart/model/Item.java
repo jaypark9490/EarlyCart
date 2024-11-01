@@ -6,17 +6,19 @@ public class Item {
     String name;
     int price;
     int stock;
+    String barcode;
     String image;
 
     public Item() {
     }
 
-    public Item(int id, String category, String name, int price, int stock, String image) {
+    public Item(int id, String category, String name, int price, int stock, String barcode, String image) {
         this.id = id;
         this.category = category;
         this.name = name;
         this.price = price;
         this.stock = stock;
+        this.barcode = barcode;
         this.image = image;
     }
 
@@ -58,6 +60,14 @@ public class Item {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    public String getBarcode() {
+        return barcode;
+    }
+
+    public void setBarcode(String barcode) {
+        this.barcode = barcode;
     }
 
     public String getImage() {

@@ -1,9 +1,7 @@
 package server.earlycart.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import server.earlycart.model.Item;
 import server.earlycart.service.ItemService;
 
@@ -15,38 +13,39 @@ public class ItemController {
     ItemService itemService;
 
     @GetMapping("item/{id}")
-    public Item itemById(@PathVariable String id) {
+    public Item getItemById(@PathVariable String id) {
         return itemService.getItemById(id);
     }
 
     @GetMapping("item/category/{category}")
-    public ArrayList<Item> itemListByCategory(@PathVariable String category) {
+    public ArrayList<Item> getItemListByCategory(@PathVariable String category) {
         return itemService.getItemListByCategory(category);
     }
 
     @GetMapping("item/search/{name}")
-    public ArrayList<Item> itemListByName(@PathVariable String name) {
+    public ArrayList<Item> getItemListByName(@PathVariable String name) {
         return itemService.getItemListByName(name);
     }
 
     @GetMapping("item/random/{limit}")
-    public ArrayList<Item> itemListByRandom(@PathVariable int limit) {
+    public ArrayList<Item> getItemListByRandom(@PathVariable int limit) {
         return itemService.getItemListByRandom(limit);
     }
 
     @GetMapping("item/chatgpt/{id}")
-    public ArrayList<Item> chatgpt(@PathVariable String id) {
-        return itemService.getItemListTest(id);
+    public ArrayList<Item> getItemListByChatGPT1(@PathVariable String id) {
+        return itemService.getItemListByChatGPT1(id);
     }
 
-    @GetMapping("item/chatgpt2/{id}")
-    public String chatgpt2(@PathVariable String id) {
-        return itemService.getItemListTest2(id);
+    @GetMapping("item/chatgpt/cart/{itemList}")
+    public ArrayList<Item> getItemListByChatGPT2(@PathVariable String itemList) {
+        return itemService.getItemListByChatGPT2(itemList);
     }
 
-    @GetMapping("item/chatgpt")
-    public ArrayList<Item> chatgpt() {
-        return itemService.getItemListByRandom(15);
-        //return itemService.getItemListByChatGPT();
+    @GetMapping("item/chatgpt/search/{content}")
+    public ArrayList<Item> getItemListByChatGPT3(@PathVariable String content) {
+        return itemService.getItemListByChatGPT3(content);
     }
+
+
 }
