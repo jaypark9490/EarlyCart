@@ -21,7 +21,7 @@ public class ItemService {
         try {
             Item item = db.queryForObject("select * from items where id = ?;",
                     (rs, row) -> {
-                        return new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6));},
+                        return new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6), rs.getString(7));},
                     id);
             return item;
         } catch (Exception e) {
@@ -33,7 +33,7 @@ public class ItemService {
         ArrayList<Item> itemList = new ArrayList<>();
         try {
             db.query("select * from items where category = ? order by rand();",
-                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6)));},
+                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6), rs.getString(7)));},
                     category);
             return itemList;
         } catch (Exception e) {
@@ -45,7 +45,7 @@ public class ItemService {
         ArrayList<Item> itemList = new ArrayList<>();
         try {
             db.query("select * from items where name like ?;",
-                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6)));},
+                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6), rs.getString(7)));},
                     "%" + name + "%");
             return itemList;
         } catch (Exception e) {
@@ -57,7 +57,7 @@ public class ItemService {
         ArrayList<Item> itemList = new ArrayList<>();
         try {
             db.query("select * from items order by rand() limit ?;",
-                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6)));},
+                    rs -> { itemList.add(new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6), rs.getString(7)));},
                     limit);
             return itemList;
         } catch (Exception e) {
@@ -82,7 +82,7 @@ public class ItemService {
 
             itemList = new ArrayList<>();
 
-            itemList.add(new Item(9999, result[0], null, 0, 0, null));
+            itemList.add(new Item(9999, result[0], null, 0, 0, null, null));
 
             for (int i = 0; i < result[1].split(",").length; i++) {
                 if (result[1].split(",")[i].equals(id)) continue;
@@ -98,7 +98,7 @@ public class ItemService {
 
             String result = chatGPTService.getResponse(data.toString() + prompt);
 
-            itemList.add(0, new Item(9999, result, null, 0, 0, null));
+            itemList.add(0, new Item(9999, result, null, 0, 0, null, null));
             return itemList;
         }
     }
