@@ -12,9 +12,9 @@ public class ItemController {
     @Autowired
     ItemService itemService;
 
-    @GetMapping("item/{id}")
-    public Item getItemById(@PathVariable String id) {
-        return itemService.getItemById(id);
+    @GetMapping("item/{itemId}")
+    public Item getItemById(@PathVariable String itemId) {
+        return itemService.getItemById(itemId);
     }
 
     @GetMapping("item/barcode/{barcode}")

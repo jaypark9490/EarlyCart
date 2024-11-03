@@ -36,7 +36,7 @@ public class UserService {
         }
     }
 
-    public String updateSession(String id) {
+    public String updateSession(String userId) {
         try {
             Random random = new Random();
             StringBuilder session = new StringBuilder();
@@ -46,7 +46,7 @@ public class UserService {
                 else if (result == 1) session.append((char) (random.nextInt(26) + 97));
                 else session.append(random.nextInt(10));
             }
-            db.update("update users set session = ? where id = ?;", session.toString(), id);
+            db.update("update users set session = ? where id = ?;", session.toString(), userId);
             return session.toString();
         } catch (Exception e) {
             return "0";

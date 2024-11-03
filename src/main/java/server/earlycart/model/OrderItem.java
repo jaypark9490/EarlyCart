@@ -4,16 +4,18 @@ public class OrderItem {
     int id;
     int orderId;
     int itemId;
+    String itemName;
     int quantity;
     int price;
 
     public OrderItem() {
     }
 
-    public OrderItem(int id, int orderId, int itemId, int quantity, int price) {
+    public OrderItem(int id, int orderId, int itemId, String itemName, int quantity, int price) {
         this.id = id;
         this.orderId = orderId;
         this.itemId = itemId;
+        this.itemName = itemName;
         this.quantity = quantity;
         this.price = price;
     }
@@ -40,6 +42,14 @@ public class OrderItem {
 
     public void setItemId(int itemId) {
         this.itemId = itemId;
+    }
+
+    public String getItemName() {
+        return itemName;
+    }
+
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
     }
 
     public int getQuantity() {

@@ -43,6 +43,7 @@ CREATE TABLE orders (
     user_id VARCHAR(255),
     cart_id INT NOT NULL,
     price INT NOT NULL,
+    status INT NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -50,6 +51,7 @@ CREATE TABLE order_items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
     item_id INT,
+    item_name VARCHAR(255),
     quantity INT NOT NULL,
     price INT NOT NULL,
     FOREIGN KEY (order_id) REFERENCES orders(id),

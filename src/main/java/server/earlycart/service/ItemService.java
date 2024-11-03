@@ -15,12 +15,12 @@ public class ItemService {
     @Autowired
     ChatGPTService chatGPTService;
 
-    public Item getItemById(String id) {
+    public Item getItemById(String itemId) {
         try {
             Item item = db.queryForObject("select * from items where id = ?;",
                     (rs, row) -> {
                         return new Item(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getInt(4), rs.getInt(5), rs.getString(6), rs.getString(7));},
-                    id);
+                    itemId);
             return item;
         } catch (Exception e) {
             return null;
@@ -75,11 +75,11 @@ public class ItemService {
         }
     }
 
-    public ArrayList<Item> getItemListByChatGPT1(String id) {
+    public ArrayList<Item> getItemListByChatGPT1(String itemId) {
 
         ArrayList<Item> itemList = new ArrayList<>();
         StringBuilder data = new StringBuilder("id,name\\n");
-        String itemName = getItemById(id).getName();
+        String itemName = getItemById(itemId).getName();
         try {
             db.query("select * from items;", rs -> { data.append(rs.getInt(1) + "," + rs.getString(3) + "\\n" );});
 
@@ -94,7 +94,7 @@ public class ItemService {
             itemList.add(new Item(9999, result[0], null, 0, 0, null, null));
 
             for (int i = 0; i < result[1].split(",").length; i++) {
-                if (result[1].split(",")[i].equals(id)) continue;
+                if (result[1].split(",")[i].equals(itemId)) continue;
                 itemList.add(getItemById(result[1].split(",")[i].trim()));
             }
 
@@ -141,7 +141,7 @@ public class ItemService {
             String prompt = "\\n위 데이터는 마트에 있는 상품들이야. 마트에 있는 상품들을 기반으로 검색해줘.\\n" +
                     "검색어 : '" + keywords + "'\\n" +
                     "검색어에 필요한 모든 상품 목록의 상품 id를 검색해줘. 검색결과에 대해 자세하게 200자 이내로 설명해줘. 설명할때 상품 id는 빼줘.\\n" +
-                    "검색결과의 모든 상품 id 목록을 콤마로 구분해서 맨 뒤에 추가해줘. 적어도 5개 이상의 상품을 추천해줘.\\n" +
+                    "모든 상품 id 목록을 콤마로 구분해서 맨 뒤에 추가해줘. 적어도 5개 이상의 상품을 추천해줘.\\n" +
                     "답변에 설명과 상품 id를 '<split>' 로 구분할수 있게 대답해줘. 예를들면, 답변 마지막에 '<split>1,2,3,4,5' 이와 같이 추가해줘.";
 
             String[] result = chatGPTService.getResponse(data.toString() + prompt).split("<split>");
@@ -159,9 +159,9 @@ public class ItemService {
         }
     }
 
-    public ArrayList<Item> getItemListByChatGPT4(String id) {
+    public ArrayList<Item> getItemListByChatGPT4(String itemId) {
         ArrayList<Item> itemList = new ArrayList<>();
-        String itemName = getItemById(id).getName();
+        String itemName = getItemById(itemId).getName();
         try {
             String prompt = "'" + itemName + "'을 구입했을때 활용방안을 자세하게 200자 이내로 설명해줘. 답변할때 내가 말한 상품의 단위는 빼줘.\\n" +
                     "'" + itemName + "'와 비슷하거나 잘 어울리는 상품을 찾기위한 관련된 검색어를 출력해줘. 검색어는 콤마로 구분해서 맨 마지막에 추가해줘.\\n" +

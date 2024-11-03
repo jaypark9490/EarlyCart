@@ -9,12 +9,12 @@ import server.earlycart.service.CategoryService;
 import java.util.ArrayList;
 
 @RestController
-public class CategoryContoller {
+public class CategoryController {
     @Autowired
     CategoryService categoryService;
 
     @GetMapping("category")
-    public ArrayList<Category> userRegister() {
+    public ArrayList<Category> getCategoryList() {
         return categoryService.getCategory();
     }
 }
