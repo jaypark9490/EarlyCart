@@ -34,31 +34,24 @@ CREATE TABLE items (
     name VARCHAR(255) NOT NULL,
     price INT NOT NULL,
     stock INT NOT NULL,
+    barcode VARCHAR(255) NOT NULL,
     image VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id VARCHAR(255),
+    cart_id INT NOT NULL,
     price INT NOT NULL,
-    payment BOOLEAN NOT NULL,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-CREATE TABLE carts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id VARCHAR(255),
-    FOREIGN KEY (user_id) REFERENCES users(id)
-);
-
-CREATE TABLE cart_items (
+CREATE TABLE order_items (
     id INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
-    cart_id INT,
     item_id INT,
     quantity INT NOT NULL,
     price INT NOT NULL,
     FOREIGN KEY (order_id) REFERENCES orders(id),
-    FOREIGN KEY (cart_id) REFERENCES carts(id),
     FOREIGN KEY (item_id) REFERENCES items(id)
 );

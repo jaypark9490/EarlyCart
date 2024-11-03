@@ -1,0 +1,275 @@
+id,category,name,price,stock,barcode,image
+,정육_축산,돼지고기 삼겹살,2880,50,8.8093E+12,https://i.imgur.com/hyo6kGc.png
+,정육_축산,돼지고기 목살,2480,50,8.8093E+12,https://i.imgur.com/KQdaWNT.png
+,정육_축산,한우 갈비살,15000,50,8.8093E+12,https://i.imgur.com/3bagcpH.png
+,정육_축산,소고기 안심,6000,50,8.8093E+12,https://i.imgur.com/vVqaqWf.png
+,정육_축산,닭가슴살,7000,50,8.8093E+12,https://i.imgur.com/3dJiQUB.png
+,정육_축산,돼지고기 앞다리살,40000,50,8.8093E+12,https://i.imgur.com/8zIjvs1.png
+,정육_축산,오리고기,20000,50,8.8093E+12,https://i.imgur.com/cl9NjIq.png
+,정육_축산,소고기 차돌박이,30000,50,8.8093E+12,https://i.imgur.com/2AAMu8g.png
+,정육_축산,돼지고기 항정살,22000,50,8.8093E+12,https://i.imgur.com/n0Nb04q.png
+,정육_축산,닭날개,6000,50,8.8093E+12,https://i.imgur.com/UrvBjVJ.png
+,해산_수산,연어,25000,50,8.8093E+12,https://i.imgur.com/KCbrQE9.png
+,해산_수산,참치,28000,50,8.8093E+12,https://i.imgur.com/wZmRI02.png
+,해산_수산,고등어,7500,50,8.8093E+12,https://i.imgur.com/GUVFUE1.png
+,해산_수산,갈치,15000,50,8.8093E+12,https://i.imgur.com/NTOt9jb.png
+,해산_수산,조기,12000,50,8.8093E+12,https://i.imgur.com/y3hJp9Q.png
+,해산_수산,광어,22000,50,8.8093E+12,https://i.imgur.com/unjglXd.png
+,해산_수산,명태,8000,50,8.8093E+12,https://i.imgur.com/ZlYsDsZ.png
+,해산_수산,전복,20000,50,8.8093E+12,https://i.imgur.com/xthQ3w5.png
+,해산_수산,새우,20000,50,8.8093E+12,https://i.imgur.com/3jnXxYk.png
+,해산_수산,바지락,5000,50,8.8093E+12,https://i.imgur.com/1syzBbA.png
+,채소_과일,상추,2500,50,8.8093E+12,https://i.imgur.com/hqNoyQb.png
+,채소_과일,시금치,3000,50,8.8093E+12,https://i.imgur.com/qU5qEQr.png
+,채소_과일,양파,1500,50,8.8093E+12,https://i.imgur.com/rhNooMj.png
+,채소_과일,당근,1200,50,8.8093E+12,https://i.imgur.com/WXBrrPS.png
+,채소_과일,감자,2000,50,8.8093E+12,https://i.imgur.com/8RyVR3D.png
+,채소_과일,양배추,4500,50,8.8093E+12,https://i.imgur.com/DZYLuZA.png
+,채소_과일,토마토,4000,50,8.8093E+12,https://i.imgur.com/A0U3VhE.png
+,채소_과일,파프리카,3500,50,8.8093E+12,https://i.imgur.com/hGZC1pN.png
+,채소_과일,마늘,10000,50,8.8093E+12,https://i.imgur.com/praMSGw.png
+,채소_과일,고추,6000,50,8.8093E+12,https://i.imgur.com/EKdQomG.png
+,생활_가전,케라시스 퍼퓸 샴푸 체리블라썸,6500,50,8.8093E+12,https://i.imgur.com/MjsG4dD.png
+,생활_가전,케라시스 퍼퓸 린스 체리블라썸,7100,50,8.8093E+12,https://i.imgur.com/d77D4PS.png
+,생활_가전,피죤 레귤러 섬유유연제 핑크로즈,8700,50,8.8093E+12,https://i.imgur.com/F1ZfDKN.png
+,생활_가전,다우니 프리미엄 실내건조 액체형 세제,12000,50,8.8093E+12,https://i.imgur.com/wZYFs2f.png
+,생활_가전,퍼실 딥 클린 라벤더젤 플러스 드럼용 액상세제,14800,50,8.8093E+12,https://i.imgur.com/fwZzBdq.png
+,생활_가전,잘풀리는집 맥스소프트 화장지,16500,50,8.8093E+12,https://i.imgur.com/UhBACDl.png
+,생활_가전,페브리즈 에어 실내 탈취제 다우니향,14000,50,8.8093E+12,https://i.imgur.com/iTu0vZL.png
+,생활_가전,페브리즈 섬유탈취제 강력탈취 상쾌한향,5000,50,8.8093E+12,https://i.imgur.com/F65jsKV.png
+,생활_가전,페브리즈 섬유탈취제 강력탈취 미스티크,7500,50,8.8093E+12,https://i.imgur.com/HTFZkpM.png
+,생활_가전,도브 뷰티너리싱 바디워시,6200,50,8.8093E+12,https://i.imgur.com/11Jzr8N.png
+,생활_가전,세타필 모이스춰라이징 바디로션,11000,50,8.8093E+12,https://i.imgur.com/LBjRljD.png
+,생활_가전,바세린 오리지널 프로텍팅 젤리,3000,50,8.8093E+12,https://i.imgur.com/OB4OCIX.png
+,생활_가전,2080 오리지날 미세모 칫솔,6800,50,8.8093E+12,https://i.imgur.com/H0quLBp.png
+,생활_가전,페리오 뉴 후레쉬 플러스 치약,1500,50,8.8093E+12,https://i.imgur.com/mjNP0Q7.png
+,생활_가전,도루코 쓰리터치 일회용 3날 면도기,1200,50,8.8093E+12,https://i.imgur.com/hmv9e36.png
+,생활_가전,질레트 센서티브 2 in 1 퓨어스포츠 쉐이빙젤 면도젤,6000,50,8.8093E+12,https://i.imgur.com/PCblAav.png
+,생활_가전,니베아 맨 센서티브 쉐이빙 폼,6600,50,8.8093E+12,https://i.imgur.com/Kl6Dumu.png
+,생활_가전,파테크 초고출력 헤어 드라이어,23900,50,8.8093E+12,https://i.imgur.com/bakkPUH.png
+,생활_가전,바비리스 다이아몬드 세라믹 스트레이트너 고데기,28900,50,8.8093E+12,https://i.imgur.com/ASW9tdI.png
+,생활_가전,필립스 SkinIQ 7000 시리즈 전기면도기,168000,50,8.8093E+12,https://i.imgur.com/YOSH0Vf.png
+,생활_가전,삼성전자 15W PD 정품 C타입 고속 충전기 케이블 포함,14000,50,8.8093E+12,https://i.imgur.com/2ck5vrz.png
+,생활_가전,BRUNO 쿨터치 무선 전기포트,27800,50,8.8093E+12,https://i.imgur.com/QpYMgie.png
+,생활_가전,쿠쿠 에어프라이어,75600,50,8.8093E+12,https://i.imgur.com/43q36bz.png
+,생활_가전,키친플라워 쿠킨 유리 티포트,19800,50,8.8093E+12,https://i.imgur.com/tD0754C.png
+,생활_가전,쿠쿠 전기압력밥솥,143000,50,8.8093E+12,https://i.imgur.com/u5Gv1xL.png
+,생활_가전,쿠쿠 전자레인지 다이얼식,57000,50,8.8093E+12,https://i.imgur.com/7cil9xJ.png
+,생활_가전,신일 좌석용 선풍기,78900,50,8.8093E+12,https://i.imgur.com/CC8GOKz.png
+,주류_음료,삼다수,1080,50,8.8093E+12,https://i.imgur.com/mhYpYjE.png
+,주류_음료,삼다수,480,50,8.8093E+12,https://i.imgur.com/XWLzo3O.png
+,주류_음료,칠성사이다,2580,50,8.8093E+12,https://i.imgur.com/IZBN45S.png
+,주류_음료,칠성사이다,1880,50,8.8093E+12,https://i.imgur.com/XTj8j3r.png
+,주류_음료,칠성사이다 제로,2580,50,8.8093E+12,https://i.imgur.com/fo98Y0B.png
+,주류_음료,칠성사이다 제로,1880,50,8.8093E+12,https://i.imgur.com/LyyS79N.png
+,주류_음료,코카콜라,2080,50,8.8093E+12,https://i.imgur.com/4fx7DKN.png
+,주류_음료,코카콜라 제로,2080,50,8.8093E+12,https://i.imgur.com/40JNjL2.png
+,주류_음료,코카콜라 몬스터 에너지,2180,50,8.8093E+12,https://i.imgur.com/G6s4OeJ.png
+,주류_음료,칸타타 스위트 아메리카노,2380,50,8.8093E+12,https://i.imgur.com/y0gOjdQ.png
+,주류_음료,환타 오렌지,840,50,8.8093E+12,https://i.imgur.com/aqwLcUW.png
+,주류_음료,밀키스,1680,50,8.8093E+12,https://i.imgur.com/zKxXgB3.png
+,주류_음료,서울우유 우유,2960,50,8.8093E+12,https://i.imgur.com/5clLApl.png
+,주류_음료,서울우유 액상 요구르트,3100,50,8.8093E+12,https://i.imgur.com/woi8Mu5.png
+,주류/음료,델몬트 알로에,2180,50,8.8093E+12,https://i.imgur.com/Crjnt5F.png
+,스낵_가공,오리온 초코파이,4320,50,8.8093E+12,https://i.imgur.com/5puNX7n.png
+,스낵_가공,해태 오예스,4780,50,8.8093E+12,https://i.imgur.com/fnGKmk2.png
+,스낵_가공,해태 홈런볼 초코,1360,50,8.8093E+12,https://i.imgur.com/2sqAEDe.png
+,스낵_가공,롯데 빼빼로 오리지날,1440,50,8.8093E+12,https://i.imgur.com/Gt27tBp.png
+,스낵_가공,오리온 포카칩 소금,1360,50,8.8093E+12,https://i.imgur.com/rp1UlAt.png
+,스낵_가공,오리온 스윙칩 볶음 고추장맛,1200,50,8.8093E+12,https://i.imgur.com/DRnHqEo.png
+,스낵_가공,해태 허니버터칩,2000,50,8.8093E+12,https://i.imgur.com/7JCw9Nj.png
+,스낵_가공,오리온 다이제 초코,2000,50,8.8093E+12,https://i.imgur.com/xHeyuom.png
+,스낵_가공,오리온 오감자 그라탕맛,1000,50,8.8093E+12,https://i.imgur.com/cf2m3Y8.png
+,스낵_가공,크라운 쿠크다스 비엔나 커피,3680,50,8.8093E+12,https://i.imgur.com/gal6Z7d.png
+,스낵_가공,농심 포스틱,1360,50,8.8093E+12,https://i.imgur.com/eyQACgS.png
+,스낵_가공,농심 새우깡,1100,50,8.8093E+12,https://i.imgur.com/y5UP6dC.png
+,스낵_가공,오리온 눈을감자 페퍼솔트맛,2700,50,8.8093E+12,https://i.imgur.com/fah3pIC.png
+,스낵_가공,오뚜기 뿌셔뿌셔 양념치킨맛,880,50,8.8093E+12,https://i.imgur.com/hTkKty6.png
+,스낵_가공,크라운 화이트하임,4780,50,8.8093E+12,https://i.imgur.com/2e667Qz.png
+,사무_문구,평화 양손가위,2200,50,8.8093E+12,https://i.imgur.com/KSgomXW.png
+,사무_문구,이젠 레이지스타 커터칼,1500,50,8.8093E+12,https://i.imgur.com/gpWDXpx.png
+,사무_문구,제트스트림 검정색 볼펜,1700,50,8.8093E+12,https://i.imgur.com/wbUoxIt.png
+,사무_문구,문화 제도 샤프,2200,50,8.8093E+12,https://i.imgur.com/ZKC4odc.png
+,사무_문구,동아 오피스 지우개연필 2B,1600,50,8.8093E+12,https://i.imgur.com/P3qjTgE.png
+,사무_문구,모나미 에딩슈퍼 형광펜 파스텔,2400,50,8.8093E+12,https://i.imgur.com/7rz1kaC.png
+,사무_문구,모닝 더베이직노트,1000,50,8.8093E+12,https://i.imgur.com/BcGuSyN.png
+,사무_문구,3M 포스트잇 노랑,1600,50,8.8093E+12,https://i.imgur.com/0aEEhWC.png
+,사무_문구,더블에이 복사지 A4,7100,50,8.8093E+12,https://i.imgur.com/4ubcLCB.png
+,사무_문구,프롬 커팅안전자 모노,1700,50,8.8093E+12,https://i.imgur.com/huk7gSh.png
+,사무_문구,평화 피스 클립,400,50,8.8093E+12,https://i.imgur.com/D2YrhOT.png
+,사무_문구,아모스 딱풀,1250,50,8.8093E+12,https://i.imgur.com/avXnWu4.png
+,사무_문구,A4 파일폴더 투명 서류 분류파일,1400,50,8.8093E+12,https://i.imgur.com/4WHvxtU.png
+,사무_문구,맥스 스테플러 MAX HD-10D 그레이,8400,50,8.8093E+12,https://i.imgur.com/D2UjqPc.png
+,사무_문구,모나미그리픽스 지우개 (소형),1350,50,8.8093E+12,https://i.imgur.com/yqoYBZ9.png
+,스낵_가공,마가렛트,5200,50,8.8093E+12,https://i.imgur.com/Mz5mWNM.png
+,스낵_가공,리코스 라운드 나쵸 칩,6000,50,8.8093E+12,https://i.imgur.com/zzaP6gR.png
+,스낵_가공,롯데 꼬깔콘 군옥수수맛,1500,50,8.8093E+12,https://i.imgur.com/rN88mwN.png
+,스낵_가공,풀무원 24시 깔끔 즉석우동,5000,50,8.8093E+12,https://i.imgur.com/OztyKHL.png
+,스낵_가공,하코야 오뎅전골,22790,50,8.8093E+12,https://i.imgur.com/6ku1L2U.png
+,스낵_가공,농심 신라면,3900,50,8.8093E+12,https://i.imgur.com/nJXl68Q.png
+,스낵_가공,농심 너구리 얼큰한 맛,4500,50,8.8093E+12,https://i.imgur.com/qS0UYWl.png
+,스낵_가공,불닭볶음면,4590,50,8.8093E+12,https://i.imgur.com/1v0OV4S.png
+,스낵_가공,짜파게티,4800,50,8.8093E+12,https://i.imgur.com/CV0lWac.png
+,스낵_가공,팔도비빔면,5770,50,8.8093E+12,https://i.imgur.com/um713Id.png
+,스낵_가공,동원 라이트 스탠다드 참,12140,50,8.8093E+12,https://i.imgur.com/Bl8Sesz.png
+,스낵_가공,오뚜기 초당옥수수 통조림,2410,50,8.8093E+12,https://i.imgur.com/x01n0P2.png
+,스낵_가공,곰곰 칼집 비엔나 소시지,6540,50,8.8093E+12,https://i.imgur.com/mDPKTKb.png
+,스낵_가공,곰곰 알찬 후랑크소시지,10380,50,8.8093E+12,https://i.imgur.com/Nnm5l4t.png
+,스낵_가공,햇반 백미밥,5970,50,8.8093E+12,https://i.imgur.com/0XRSjYW.png
+,스낵_가공,비비고 왕교자,9350,50,8.8093E+12,https://i.imgur.com/jrF70dK.png
+,스낵_가공,고메 통등심 돈카츠,8380,50,8.8093E+12,https://i.imgur.com/7SyCouu.png
+,스낵_가공,하림 치킨너겟,10630,50,8.8093E+12,https://i.imgur.com/naizB4J.png
+,스낵_가공,오뚜기 불고기 피자,8500,50,8.8093E+12,https://i.imgur.com/9dKJf8o.png
+,스낵_가공,고메 크리스피핫도그,14120,50,8.8093E+12,https://i.imgur.com/BBRyuic.png
+,주류_음료,아이시스 생수,5800,50,8.8093E+12,https://i.imgur.com/ZJNi2qH.png
+,주류_음료,카스 프레쉬,2180,50,8.8093E+12,https://i.imgur.com/YlBLyDs.png
+,주류_음료,처음처럼,1400,50,8.8093E+12,https://i.imgur.com/RDnILxo.png
+,주류_음료,장수막걸리,1680,50,8.8093E+12,https://i.imgur.com/Bda0B8X.png
+,주류_음료,롯데칠성음료 트레비 라임 펫,530,50,8.8093E+12,https://i.imgur.com/UnFvJKn.png
+,주류_음료,맥심 티오피 캔커피,970,50,8.8093E+12,https://i.imgur.com/u9C3Xuk.png
+,주류_음료,레쓰비 마일드 캔커피,410,50,8.8093E+12,https://i.imgur.com/i48qpl3.png
+,주류_음료,실론티,800,50,8.8093E+12,https://i.imgur.com/Y998rO6.png
+,주류_음료,옥수수수염차 웅진,1000,50,8.8093E+12,https://i.imgur.com/UYfe4V2.jpeg
+,주류_음료,광동 더 진한 헛개차 골드라벨,1010,50,8.8093E+12,https://i.imgur.com/chAAsG3.png
+,주류_음료,하늘보리 웅진,900,50,8.8093E+12,https://i.imgur.com/uLN85XB.png
+,주류_음료,델몬트 알로에 주스,2500,50,8.8093E+12,https://i.imgur.com/JeOTWfK.png
+,주류_음료,미닛메이드 오리지널 오렌지 주스,1790,50,8.8093E+12,https://i.imgur.com/D3JZ8RP.png
+,주류_음료,썬키스트 포도주스,4430,50,8.8093E+12,https://i.imgur.com/ZLHpWxc.png
+,주류_음료,동아오츠카 박카스D,720,50,8.8093E+12,https://i.imgur.com/hirk7VA.png
+,주류_음료,광동제약 비타500,1390,50,8.8093E+12,https://i.imgur.com/3q83coR.png
+,주류_음료,웅진 초록매실,980,50,8.8093E+12,https://i.imgur.com/X1SQTaG.png
+,주류_음료,남양유업 초코에몽,900,50,8.8093E+12,https://i.imgur.com/Gbwhjuv.png
+,주류_음료,내장산 복분자주 16도,6910,50,8.8093E+12,https://i.imgur.com/o5qyPD3.png
+,주류_음료,동아오츠카 포카리스웨트,720,50,8.8093E+12,https://i.imgur.com/KMpwz0O.png
+,사무_문구,코멧 경포장용 박스 테이프,3160,50,8.8093E+12,https://i.imgur.com/gxhwygX.png
+,사무_문구,펜맥스 12각 세필 보드마카 검정 12개,3140,50,8.8093E+12,https://i.imgur.com/oKVrU8a.png
+,사무_문구,수정 지우개 화이트 바르네 수정테이프,750,50,8.8093E+12,https://i.imgur.com/zJwQkxN.png
+,사무_문구,모나미 어데나500 시험용사인펜 컴퓨터싸인펜,110,50,8.8093E+12,https://i.imgur.com/gYDSuW5.png
+,사무_문구,모닝글로리 3000 테마컬러 원링 스프링노트,2210,50,8.8093E+12,https://i.imgur.com/UN5WuEz.png
+,사무_문구,화일사랑 A4 컬러 정부화일,110,50,8.8093E+12,https://i.imgur.com/gebjHyj.png
+,사무_문구,A4 크라프트 각대 서류봉투?,490,50,8.8093E+12,https://i.imgur.com/MJjHUfY.png
+,사무_문구,문구마을 A4무지봉투 규격봉투,2500,50,8.8093E+12,https://i.imgur.com/38fPvSf.png
+,사무_문구,동성피피 더블집게 중,5900,50,8.8093E+12,https://i.imgur.com/9LfCqhC.png
+,사무_문구,팬시 압정 5컬러,700,50,8.8093E+12,https://i.imgur.com/4GGaJzf.png
+,사무_문구,칼라 2공 바인더 하드커버 파일철 3cm 칼라보드파일 A4,2200,50,8.8093E+12,https://i.imgur.com/GHbJYs2.png
+,사무_문구,시스맥스 뉴킹꽂이 파일꽂이,2440,50,8.8093E+12,https://i.imgur.com/7ivKot8.png
+,사무_문구,크리에잇투 원형컬러 라벨스티커,200,50,8.8093E+12,https://i.imgur.com/Zxj74JH.png
+,사무_문구,화신 글루건 소+핫멜트 소,11990,50,8.8093E+12,https://i.imgur.com/6ytWJLS.png
+,사무_문구,3M 스카치테이프 522D,920,50,8.8093E+12,https://i.imgur.com/e51mtbh.png
+,사무_문구,1구 펀치  미니 기계 종이  타공기 문서펀칭기,1570,50,8.8093E+12,https://i.imgur.com/WxMdHI3.png
+,사무_문구,고무나라 700 미디어 목걸이명찰 세로 파랑,3260,50,8.8093E+12,https://i.imgur.com/iXPEUA1.png
+,사무_문구,홈플래닛 LED 안티 블루라이트 학습용 스탠드,22800,50,8.8093E+12,https://i.imgur.com/mjzBO1N.png
+,사무_문구,2025년 모닝글로리 스탠딩 캘린더,5550,50,8.8093E+12,https://i.imgur.com/r0vizQJ.png
+,사무_문구,원자 super 802 다용도 순간 접착제 6ml 투명 본드,490,50,8.8093E+12,https://i.imgur.com/retHsLM.png
+,생활_가전,테팔 컴포트 주방칼 식도,14400,50,8.8093E+12,https://i.imgur.com/zmYrpI4.png
+,생활_가전,코멕스 위생 도마,3900,50,8.8093E+12,https://i.imgur.com/wMhisdj.png
+,생활_가전,바겐슈타이거 플렉시벨 실리콘 뒤집개,5390,50,8.8093E+12,https://i.imgur.com/DgrENE6.png
+,생활_가전,리빙글로리 모던 스테인리스 국자 중,6900,50,8.8093E+12,https://i.imgur.com/c60iT2c.png
+,생활_가전,코멧 국산 스테인레스 성인 수저세트,4990,50,8.8093E+12,https://i.imgur.com/ZbcHLoR.png
+,생활_가전,바베큐 집게,1590,50,8.8093E+12,https://i.imgur.com/eRkK4n5.png
+,생활_가전,코멧 홈 편수 노란 양은냄비,7800,50,8.8093E+12,https://i.imgur.com/4sq5AG6.png
+,생활_가전,키친아트 아티스트 양수냄비,11820,50,8.8093E+12,https://i.imgur.com/1umr7X6.png
+,생활_가전,테팔 티타늄 심플쿡 프라이팬,24620,50,8.8093E+12,https://i.imgur.com/nFY7dfb.png
+,생활_가전,코멧 키친 스테인레스 찜기,5180,50,8.8093E+12,https://i.imgur.com/3LPJUGA.png
+,생활_가전,크라운포드 2인 식기세트,16050,50,8.8093E+12,https://i.imgur.com/3IXXVCu.png
+,생활_가전,코멧 홈 데일리 파스텔 머그컵,15240,50,8.8093E+12,https://i.imgur.com/FtHc1mr.png
+,생활_가전,락앤락 비스프리 밀폐용기 반찬통,25890,50,8.8093E+12,https://i.imgur.com/EUvO1DU.png
+,생활_가전,착한식재료 착한 위생호일,4700,50,8.8093E+12,https://i.imgur.com/VcxL4Di.png
+,생활_가전,코멧 더블 지퍼백 혼합팩 중형,7990,50,8.8093E+12,https://i.imgur.com/wm9xBII.png
+,생활_가전,탐사 베이킹소다 주방세제 레몬,2890,50,8.8093E+12,https://i.imgur.com/KZIKw5L.png
+,생활_가전,롯데이라이프 고무장갑,1800,50,8.8093E+12,https://i.imgur.com/lEVJmPd.png
+,생활_가전,홈파워 휘슬 주전자,9500,50,8.8093E+12,https://i.imgur.com/JiJpURS.png
+,생활_가전,테팔 미니 커피메이커,31570,50,8.8093E+12,https://i.imgur.com/MmtMjZM.png
+,생활_가전,대웅모닝컴 싸이클론 유선 진공청소기,49800,50,8.8093E+12,https://i.imgur.com/YYxYRhN.png
+,정육_축산,돼지고기 LA갈비,23990,50,8.8093E+12,https://i.imgur.com/hq9dtpp.png
+,정육_축산,닭 백숙용,7220,50,8.8093E+12,https://i.imgur.com/fRaqZF3.png
+,정육_축산,한우 샤브샤브,15990,50,8.8093E+12,https://i.imgur.com/zZALSIf.png
+,정육_축산,한우 치마살,36960,50,8.8093E+12,https://i.imgur.com/ggGWgiB.png
+,정육_축산,닭 목살,10300,50,8.8093E+12,https://i.imgur.com/m73x7gp.png
+,정육_축산,한우 토시살,29510,50,8.8093E+12,https://i.imgur.com/ewYTNab.png
+,정육_축산,오리주물럭,11490,50,8.8093E+12,https://i.imgur.com/mlL1V4p.png
+,정육_축산,양꼬치 ,12900,50,8.8093E+12,https://i.imgur.com/aQXVKiK.png
+,정육_축산,계란,7000,50,8.8093E+12,https://i.imgur.com/WbjLrV1.png
+,해산_수산,삼치,3990,50,8.8093E+12,https://i.imgur.com/L6OgyAN.png
+,해산_수산,오징어,7900,50,8.8093E+12,https://i.imgur.com/V3mJKWQ.png
+,해산_수산,명란,11920,50,8.8093E+12,https://i.imgur.com/8g7Pf5E.png
+,해산_수산,낙지,8100,50,8.8093E+12,https://i.imgur.com/DtFeGfd.png
+,해산_수산,문어,33900,50,8.8093E+12,https://i.imgur.com/OUfqmhk.png
+,해산_수산,생굴,6800,50,8.8093E+12,https://i.imgur.com/AgaFJQq.png
+,해산_수산,관자,15900,50,8.8093E+12,https://i.imgur.com/6378wMG.png
+,해산_수산,홍합,14900,50,8.8093E+12,https://i.imgur.com/INLxLMS.png
+,해산_수산,굴비,20900,50,8.8093E+12,https://i.imgur.com/oV75naZ.png
+,해산_수산,꽃게,19900,50,8.8093E+12,https://i.imgur.com/5ZRRsfC.png
+,채소_과일,대파,3720,50,8.8093E+12,https://i.imgur.com/hdwnedM.png
+,채소_과일,깻잎,4290,50,8.8093E+12,https://i.imgur.com/ULwhFeO.png
+,채소_과일,콩나물,4710,50,8.8093E+12,https://i.imgur.com/ukvZV7c.png
+,채소_과일,무,3490,50,8.8093E+12,https://i.imgur.com/lRizqG7.png
+,채소_과일,애호박,2480,50,8.8093E+12,https://i.imgur.com/s6Pst7c.png
+,채소_과일,사과,18290,50,8.8093E+12,https://i.imgur.com/PXoyaMI.png
+,채소_과일,배,14750,50,8.8093E+12,https://i.imgur.com/FvhMNJJ.png
+,채소_과일,포도,8660,50,8.8093E+12,https://i.imgur.com/jkl8nJd.png
+,채소_과일,귤,15750,50,8.8093E+12,https://i.imgur.com/Lo6ML5B.png
+,채소_과일,딸기,33500,50,8.8093E+12,https://i.imgur.com/TXjVxuR.png
+,채소_과일,수박,28990,50,8.8093E+12,https://i.imgur.com/eFSimMn.png
+,곡물_견과,쌀,27990,50,8.8093E+12,https://i.imgur.com/pWUUyVR.png
+,곡물_견과,찹쌀,9900,50,8.8093E+12,https://i.imgur.com/4z6dipe.png
+,곡물_견과,현미,9980,50,8.8093E+12,https://i.imgur.com/ytYbZHE.png
+,곡물_견과,흑미,14900,50,8.8093E+12,https://i.imgur.com/YBXL7EE.png
+,곡물_견과,서리태,17900,50,8.8093E+12,https://i.imgur.com/k9jCFGp.png
+,곡물_견과,백태,13800,50,8.8093E+12,https://i.imgur.com/foAZyr4.png
+,곡물_견과,귀리,15160,50,8.8093E+12,https://i.imgur.com/3xZ14ul.png
+,곡물_견과,오트밀,11900,50,8.8093E+12,https://i.imgur.com/Jtpd0g4.png
+,곡물_견과,기장,3990,50,8.8093E+12,https://i.imgur.com/L7AP6C2.png
+,곡물_견과,병아리콩,8980,50,8.8093E+12,https://i.imgur.com/kJyWAg0.png
+,곡물_견과,미숫가루,19900,50,8.8093E+12,https://i.imgur.com/pKBH8Yd.png
+,곡물_견과,아몬드,14700,50,8.8093E+12,https://i.imgur.com/0L0UwYP.png
+,곡물_견과,호두,11900,50,8.8093E+12,https://i.imgur.com/6g8CUGk.png
+,곡물_견과,마카다미아,28900,50,8.8093E+12,https://i.imgur.com/huvWGuP.png
+,곡물_견과,피칸,23900,50,8.8093E+12,https://i.imgur.com/K7AcH6k.png
+,곡물_견과,피스타치오,17610,50,8.8093E+12,https://i.imgur.com/mLID4x1.png
+,곡물_견과,캐슈넛,18510,50,8.8093E+12,https://i.imgur.com/qPLSexv.png
+,곡물_견과,땅콩,8550,50,8.8093E+12,https://i.imgur.com/hLMgwBJ.png
+,곡물_견과,건포도,8820,50,8.8093E+12,https://i.imgur.com/VMcevPc.png
+,곡물_견과,김부각,4470,50,8.8093E+12,https://i.imgur.com/FDi9wlG.png
+,정육_축산,돼지고기 대패삼겹살,19900,50,8.8093E+12,https://i.imgur.com/iKBib9O.png
+,생활_가전,바베큐 참숯 숯불,8500,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/113842241191849-1f456a21-26bd-40c0-abac-e46623d8ca4b.jpg
+,생활_가전,지피니 접이식 바베큐 숯불 그릴,29750,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/6bc9/9f93474633d872c892a4cd60072a63c0507963283dc964ff46aa1ef83606.jpg
+,생활_가전,지피니 사각 바비큐 태망 석쇠 그릴,800,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/a25a/a6509a4a292c354e88c94e88927ecb2ba8a15471f91fb5166a3f5c1f3fec.jpg
+,생활_가전,타오진 원터치 텐트 캠핑 그늘막,79000,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/3b8a/0e6cd827cdc55a8628c29697338dae0f4ce6e22fdeafc0dfa5724d50ead5.jpg
+,생활_가전,베어하이크 릴렉스 캠핑 의자,47900,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/07/12/17/7/7e9d12bf-c68a-4085-b56f-55d8bd86a57d.jpg
+,스낵_가공,청정원 이탈리아 정통 스파게티 면,2600,50,8.8093E+12,https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/5be1/a0a82e4bbcee222e4a013bcaf6358e4467281994afd2daf45fe66a19fde5.jpg
+,스낵_가공,면사랑 몰리자나 링귀네 면,3800,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/10/21/10/1/3c184057-e8a0-4067-9a32-5162c326848f.jpg
+,스낵_가공,샘표 쌀 소면,7600,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/d1da/e92f97754ab9ff2f47e36639ddc845343d78716f56551bb550ff658d9bd0.jpg
+,스낵_가공,사포코  쌀국수면,1850,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/2d77/9bbbb7e63373776758c4549e4b75698ec054688b8ff1a193754c0f15bc8f.jpg
+,스낵_가공,청정원 천일염 소금,3400,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/551153273610510-fbf399af-9860-46ee-9299-2c2c99fc030e.jpg
+,스낵_가공,백설 하얀 설탕,6000,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/528760842929887-5ed6ad10-9a8c-41b7-a055-a3db6fca4b43.jpg
+,스낵_가공,샘표 진간장,4800,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/7b56/4a82151a8ca7a5a8cb0ccd963b2a3a2a1b21174d249108f1c9cef80c1985.jpg
+,스낵_가공,샘표 국간장,5160,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/cad3/2086deb38f558e17322ad4d761b3d8ad0dd9d718d08c91508922681dab2d.jpg
+,스낵_가공,청정원 순창 태양초 고추장,6000,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/6569/16a0c2a56c6d7edbc85ef1192a9c97d9eb66fc9db8c08b7fa9d331c79e3f.jpg
+ ,스낵_가공,비비고 썰은 배추김치,18000,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/0bc5/325d8802f790060179882959d04eb278f388b916ffa935173c2f8a3e4fe0.jpg
+,스낵_가공,곰곰 국내산 포기김치,16000,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1847406067326389-9ea17d13-c646-4cf4-8786-94dfbb770da7.jpg
+,스낵_가공,이금기 팬더 굴소스,3900,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/7f4c/eefd23f62b59c8ec911228f4bbfaa545b6c4ea8e19e2ce985b8be50f5c64.jpg
+,스낵_가공,해표 콩기름 식용유,6100,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/3433/3f332f991e9f2b93250bd3f2aaf7af01723960d5e4d781a6ffad85b474f8.jpg
+,스낵_가공,폰타나 엑스트라 버진 올리브유 오일,18600,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/7887488461446675-ee599bbd-26ab-4878-8054-6732f8b2dfcf.jpg
+,스낵_가공,곰표 밀가루 중력다목적용,3580,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/8941/335f424412d92ddeb2b384b224cbd288adbefc06b0ec734ca93107f92697.jpg
+,스낵_가공,앵커 냉동 버터,7700,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4432261188657315-ef1c39ec-3ba7-4aee-9659-305821310164.jpg
+,스낵_가공,상하치즈 체다 슬라이스 치즈,9000,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/5222847657681017-f6ae1323-087f-413d-b388-2952fc061b5f.jpg
+,스낵_가공,크래프트 파마산 파르메산 치즈,16500,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/12/21/17/6/f63d50b1-48d2-42ae-aba8-03969a6d64d7.jpg
+,스낵_가공,오뚜기 토마토 케첩,3800,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/43ef/6486ac02ec9e11254b48d018b0b9b05161a4f7b9187ce89a9f968c954e11.jpg
+,스낵_가공,오뚜기 허니 머스타드,4940,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/41ea/6605a0fce985c3b8e1ffc185f706aeb041d191102dfe091dec9a490519d2.jpg
+,스낵_가공,오뚜기 순후추,5490,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/27fd/ed43e782c717fce80482b47e4c799b7cec4058c34ece3b25149c1b5654fc.jpg
+,스낵_가공,청정원 요리 통후추,5300,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/2186/e85dc9552271ea9294d3006867a14c09acd5b19e12d8fe67b1af12d7b4c1.jpg
+,스낵_가공,내츄럴스파이스 페페론치노 페퍼로치노,6800,50,8.8093E+12,https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/af70/a9b42f98e9f58ff42046a4b8db7e1852cf09042195f338fa710d84727e18.jpg
+,스낵_가공,크러쉬드 레드페퍼,5500,50,8.8093E+12,https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/76893519037697-56d30cdc-a673-4999-b880-b815aa2ec39d.jpg
+,스낵_가공,곰곰 국내산 파채,3280,50,8.8093E+12,https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/fc12/e0cee1c59441d4752a2332323a2fe4f5f66dfdc33fbc4b195002fea65312.jpg
+,스낵_가공,청정원 쉐프의 치킨스톡,5790,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/2a79/19663884d4cea290c5bf13e3057a88faec01980729b7b56ff0313a0506a4.jpg
+,스낵_가공,삼립 통밀식빵,2900,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1325556246748774-62640b15-4228-456d-bea1-9da2628fbd52.jpg
+,스낵_가공,프레시 오리지널 베이글,7900,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/rs_quotation_api/taslxqbg/65eaa5444cff4efbb928d2816e4b9dd0.jpg
+,스낵_가공,곰곰 우유식빵,3760,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2106893653706499-9308af65-45d5-4e23-b3f5-72585ec37508.jpg
+,스낵_가공,프레시 고흥유자 수제 롤케익,13000,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/07/26/18/2/c8b82674-d8c2-4c82-9213-1a2c9b05570c.jpg
+,스낵_가공,더브레드블루 오트 생 크림빵 오리지널,9800,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/01/27/16/4/87785056-8f36-446e-9ad8-6463f7622dd0.jpg
+,스낵_가공,베즐리 수플레 치즈 케이크,15000,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/06/21/11/1/30f298c0-f921-46bc-b1e6-0b054bce573e.jpg
+,스낵_가공,위고에빅토르 티라미수 케이크,22000,50,8.8093E+12,https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/13362309205422-80e66eb3-2e7f-49e1-b56d-14f13c9d5741.jpg
+,스낵_가공,파리크라상 바닐라 화이트초코 딸기 크럼블 케이크 생크림,39000,50,8.8093E+12,https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/03/06/10/7/222d29b8-f606-4713-b080-e9045f477e02.jpg
+,스낵_가공,파슬리 후레이크,3250,50,8.8093E+12,https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/72604194656693-67110f08-6af7-40c9-ad96-c8871789278a.jpg
+,스낵_가공,오뚜기 양조식초,2380,50,8.8093E+12,https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/94b9/3fbe9ff00ce6eda0f27ba408a846bba2bb1bd21bd692733597afc5d663b2.jpg

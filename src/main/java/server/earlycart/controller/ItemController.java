@@ -17,6 +17,11 @@ public class ItemController {
         return itemService.getItemById(id);
     }
 
+    @GetMapping("item/barcode/{barcode}")
+    public Item getItemByBarcode(@PathVariable String barcode) {
+        return itemService.getItemByBarcode(barcode);
+    }
+
     @GetMapping("item/category/{category}")
     public ArrayList<Item> getItemListByCategory(@PathVariable String category) {
         return itemService.getItemListByCategory(category);
@@ -42,9 +47,14 @@ public class ItemController {
         return itemService.getItemListByChatGPT2(itemList);
     }
 
-    @GetMapping("item/chatgpt/search/{content}")
-    public ArrayList<Item> getItemListByChatGPT3(@PathVariable String content) {
-        return itemService.getItemListByChatGPT3(content);
+    @GetMapping("item/chatgpt/search/{keywords}")
+    public ArrayList<Item> getItemListByChatGPT3(@PathVariable String keywords) {
+        return itemService.getItemListByChatGPT3(keywords);
+    }
+
+    @GetMapping("item/chatgpt2/{id}")
+    public ArrayList<Item> getItemListByChatGPT4(@PathVariable String id) {
+        return itemService.getItemListByChatGPT4(id);
     }
 
 
