@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 @Service
 public class ChatGPTService {
@@ -26,12 +27,12 @@ public class ChatGPTService {
             connection.setDoOutput(true);
             String jsonInputString = String.format("{\"model\": \"gpt-4o-mini\", \"messages\": [{\"role\": \"user\", \"content\": \"%s\"}]}", input);
             try (OutputStream os = connection.getOutputStream()) {
-                byte[] inputBytes = jsonInputString.getBytes("utf-8");
+                byte[] inputBytes = jsonInputString.getBytes(StandardCharsets.UTF_8);
                 os.write(inputBytes, 0, inputBytes.length);
             }
             int responseCode = connection.getResponseCode();
             if (responseCode == HttpURLConnection.HTTP_OK) {
-                try (BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), "utf-8"))) {
+                try (BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8))) {
                     StringBuilder response = new StringBuilder();
                     String responseLine;
                     while ((responseLine = br.readLine()) != null) {
