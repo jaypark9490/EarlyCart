@@ -88,7 +88,7 @@ public class OrderService {
 
             String userId = userService.getUserBySession(session).getId();
 
-            db.query("select * from orders where id = ?;",
+            db.query("select * from orders where user_id = ?;",
                     rs -> { orderList.add(new Order(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getInt(4), rs.getInt(5)));},
                     userId);
             return orderList;
