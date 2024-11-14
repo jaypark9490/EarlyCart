@@ -30,7 +30,7 @@ public class OrderService {
             String userId = userService.getUserBySession(session).getId();
 
             db.update(connection -> {
-                var ps = connection.prepareStatement("insert into orders values (null, ?, ?, 0, 1);", Statement.RETURN_GENERATED_KEYS);
+                var ps = connection.prepareStatement("insert into orders values (null, ?, ?, null, null, null, 1, now());", Statement.RETURN_GENERATED_KEYS);
                 ps.setString(1, userId);
                 ps.setInt(2, Integer.parseInt(cartId));
                 return ps;
@@ -44,6 +44,7 @@ public class OrderService {
 
             return "1";
         } catch (Exception e) {
+            System.out.println(e.toString());
             return "0";
         }
     }
@@ -63,10 +64,22 @@ public class OrderService {
                 int totalPrice = itemQuantity * itemPrice;
                 orderPrice += totalPrice;
                 db.update("insert into order_items values (null, ?, ?, ?, ?, ?);", orderId, itemId, itemName, itemQuantity, totalPrice);
+                if (i == 0) {
+                    updateOrderName(orderId, itemName + " 외 " + (itemIdList.length - 1) + "개");
+                    updateOrderPrice(orderId, orderPrice);
+                    updateOrderImage(orderId, item.getImage());
+                }
             }
 
-            updateOrderPrice(orderId, orderPrice);
+            return "1";
+        } catch (Exception e) {
+            return "0";
+        }
+    }
 
+    public String updateOrderName(Long orderId, String orderName) {
+        try {
+            db.update("update orders set name = ? where id = ?;", orderName, orderId);
             return "1";
         } catch (Exception e) {
             return "0";
@@ -82,6 +95,15 @@ public class OrderService {
         }
     }
 
+    public String updateOrderImage(Long orderId, String orderImage) {
+        try {
+            db.update("update orders set image = ? where id = ?;", orderImage, orderId);
+            return "1";
+        } catch (Exception e) {
+            return "0";
+        }
+    }
+
     public ArrayList<Order> getOrderListBySession(String session) {
         ArrayList<Order> orderList = new ArrayList<>();
         try {
@@ -89,7 +111,7 @@ public class OrderService {
             String userId = userService.getUserBySession(session).getId();
 
             db.query("select * from orders where user_id = ?;",
-                    rs -> { orderList.add(new Order(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getInt(4), rs.getInt(5)));},
+                    rs -> { orderList.add(new Order(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getString(4), rs.getInt(5), rs.getString(6), rs.getInt(7), rs.getString(8)));},
                     userId);
             return orderList;
         } catch (Exception e) {

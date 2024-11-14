@@ -4,18 +4,18 @@ USE earlycart;
 
 CREATE TABLE users (
     id VARCHAR(255) PRIMARY KEY,
-    pw VARCHAR(255) NOT NULL,
-    name VARCHAR(255) NOT NULL,
-    birth VARCHAR(255) NOT NULL,
-    phone VARCHAR(255) NOT NULL,
-    role VARCHAR(255) NOT NULL,
+    pw VARCHAR(255),
+    name VARCHAR(255),
+    birth VARCHAR(255),
+    phone VARCHAR(255),
+    role VARCHAR(255),
     session VARCHAR(255)
 );
 
 CREATE TABLE categories (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    image VARCHAR(255) NOT NULL
+    name VARCHAR(255),
+    image VARCHAR(255) 
 );
 
 INSERT INTO categories (name, image) VALUES
@@ -30,20 +30,23 @@ INSERT INTO categories (name, image) VALUES
 
 CREATE TABLE items (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    category VARCHAR(255) NOT NULL,
-    name VARCHAR(255) NOT NULL,
-    price INT NOT NULL,
-    stock INT NOT NULL,
-    barcode VARCHAR(255) NOT NULL,
-    image VARCHAR(255) NOT NULL
+    category VARCHAR(255),
+    name VARCHAR(255),
+    price INT,
+    stock INT,
+    barcode VARCHAR(255),
+    image VARCHAR(255) 
 );
 
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id VARCHAR(255),
-    cart_id INT NOT NULL,
-    price INT NOT NULL,
-    status INT NOT NULL,
+    cart_id INT,
+    name VARCHAR(255),
+    price INT,
+    image VARCHAR(255),
+    status INT,
+    date VARCHAR(255),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
@@ -52,8 +55,8 @@ CREATE TABLE order_items (
     order_id INT,
     item_id INT,
     item_name VARCHAR(255),
-    quantity INT NOT NULL,
-    price INT NOT NULL,
+    quantity INT,
+    price INT,
     FOREIGN KEY (order_id) REFERENCES orders(id),
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
