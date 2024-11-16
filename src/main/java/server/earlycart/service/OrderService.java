@@ -65,8 +65,8 @@ public class OrderService {
                 orderPrice += totalPrice;
                 db.update("insert into order_items values (null, ?, ?, ?, ?, ?);", orderId, itemId, itemName, itemQuantity, totalPrice);
                 if (i == 0) {
-                    updateOrderName(orderId, itemName + " 외 " + (itemIdList.length - 1) + "개");
-                    updateOrderPrice(orderId, orderPrice);
+                    updateOrderName(orderId, itemName + " 외 " + itemIdList.length + "개");
+                    updateOrderPrice(orderId, totalPrice);
                     updateOrderImage(orderId, item.getImage());
                 }
             }
