@@ -21,6 +21,11 @@ public class OrderController {
         return orderService.newOrder(session, cartId, itemList);
     }
 
+    @GetMapping("order/{orderId}")
+    public Order getOrderById(@PathVariable String orderId) {
+        return orderService.getOrderById(orderId);
+    }
+
     @GetMapping("order/list/{session}")
     public ArrayList<Order> getOrderListBysession(@PathVariable String session) {
         return orderService.getOrderListBySession(session);

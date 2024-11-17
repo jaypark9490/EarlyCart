@@ -66,7 +66,7 @@ public class OrderService {
                 db.update("insert into order_items values (null, ?, ?, ?, ?, ?);", orderId, itemId, itemName, itemQuantity, totalPrice);
                 if (i == 0) {
                     updateOrderName(orderId, itemName + " 외 " + itemIdList.length + "개");
-                    updateOrderPrice(orderId, totalPrice);
+                    updateOrderPrice(orderId, orderPrice);
                     updateOrderImage(orderId, item.getImage());
                 }
             }
@@ -101,6 +101,18 @@ public class OrderService {
             return "1";
         } catch (Exception e) {
             return "0";
+        }
+    }
+
+    public Order getOrderById(String orderId) {
+        try {
+            Order order = db.queryForObject("select * from orders where id = ?;",
+                    (rs, row) -> {
+                        return new Order(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getString(4), rs.getInt(5), rs.getString(6), rs.getInt(7), rs.getString(8));},
+                    orderId);
+            return order;
+        } catch (Exception e) {
+            return null;
         }
     }
 
