@@ -50,11 +50,12 @@ public class OrderService {
     }
 
     public String newOrderItemList(Long orderId, String itemList) {
-        String[] itemIdList = itemList.split("<split>")[0].split(",");
-        String[] itemQuantityList = itemList.split("<split>")[1].split(",");
-        int orderPrice = 0;
-
         try {
+
+            String[] itemIdList = itemList.split("<split>")[0].split(",");
+            String[] itemQuantityList = itemList.split("<split>")[1].split(",");
+            int orderPrice = 0;
+
             for (int i = 0; i < itemIdList.length; i++) {
                 Item item = itemService.getItemById(itemIdList[i]);
                 int itemId = Integer.parseInt(itemIdList[i]);
@@ -66,10 +67,11 @@ public class OrderService {
                 db.update("insert into order_items values (null, ?, ?, ?, ?, ?);", orderId, itemId, itemName, itemQuantity, totalPrice);
                 if (i == 0) {
                     updateOrderName(orderId, itemName + " 외 " + itemIdList.length + "개");
-                    updateOrderPrice(orderId, orderPrice);
                     updateOrderImage(orderId, item.getImage());
                 }
             }
+
+            updateOrderPrice(orderId, orderPrice);
 
             return "1";
         } catch (Exception e) {
