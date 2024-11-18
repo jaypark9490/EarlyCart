@@ -51,8 +51,8 @@ CREATE TABLE order_items (
     FOREIGN KEY (item_id) REFERENCES items(id)
 );
 
-INSERT INTO users (id, pw, name, birth, phone) VALUES
-('cjh', 'cjh', '차준혁', '1999-06-02', '010-3562-6667');
+INSERT INTO users (id, pw, name, birth, phone, role) VALUES
+('cjh', 'cjh', '차준혁', '1999-06-02', '010-3562-6667', 'user');
 
 INSERT INTO categories (name, image) VALUES
 ('채소_과일', 'https://i.imgur.com/jFH07an.png'),
