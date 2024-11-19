@@ -184,4 +184,13 @@ public class ItemService {
             return null;
         }
     }
+
+    public String updateItemStock(int itemId, int itemQuantity) {
+        try {
+            db.update("update items set stock = stock - ? where id = ?;", itemQuantity, itemId);
+            return "1";
+        } catch (Exception e) {
+            return "0";
+        }
+    }
 }

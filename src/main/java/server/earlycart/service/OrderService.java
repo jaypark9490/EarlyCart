@@ -64,6 +64,7 @@ public class OrderService {
                 int itemPrice = item.getPrice();
                 int totalPrice = itemQuantity * itemPrice;
                 orderPrice += totalPrice;
+                itemService.updateItemStock(itemId, itemQuantity);
                 db.update("insert into order_items values (null, ?, ?, ?, ?, ?);", orderId, itemId, itemName, itemQuantity, totalPrice);
                 if (i == 0) {
                     if (itemIdList.length == 1) updateOrderName(orderId, itemName);
