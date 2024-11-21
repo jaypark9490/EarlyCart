@@ -362,4 +362,4 @@ INSERT INTO items VALUES
 ('294', '생활_가전', '코멧 일회용 숟가락 100개', '4290', '50', '8809297283793', 'https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/c6b9/d3ebd32ba78994e218f99d531e0703027893498f7f6a3519bf6ba0073ea0.jpg'),
 ('295', '스낵_가공', '롯데제과 오리지널 빼빼로', '1250', '50', '8801062637560', 'https://i.imgur.com/Tu94Dfq.jpeg'),
 ('296', '스낵_가공', '농심 신라면 낱봉', '1300', '50', '8801043014809', 'https://i.imgur.com/GyLAOZJ.jpeg'),
-('297', '스낵_가공', '프링글스 남미식 찹스테이크 맛', '2400', '50', '886467126796 ', 'https://i.imgur.com/2ikilSZ.png');
+('297', '스낵_가공', '프링글스 남미식 찹스테이크 맛', '2400', '50', '8886467126796 ', 'https://i.imgur.com/2ikilSZ.png');
