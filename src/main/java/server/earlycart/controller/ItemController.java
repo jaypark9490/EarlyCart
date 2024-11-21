@@ -44,7 +44,6 @@ public class ItemController {
 
     @GetMapping("item/chatgpt/cart/{itemList}")
     public ArrayList<Item> getItemListByChatGPT2(@PathVariable String itemList) {
-        System.out.println(itemList);
         return itemService.getItemListByChatGPT2(itemList);
     }
 
