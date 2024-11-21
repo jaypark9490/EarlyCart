@@ -359,7 +359,7 @@ INSERT INTO items VALUES
 ('291', '생활_가전', '탐사 일회용 그릇 종이용기 60개', '3410', '50', '8809297283790', 'https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1108047584619200-3e308f2c-fbcd-44da-9f68-8f61b8ecf3f2.jpg'),
 ('292', '생활_가전', '일회용 종이접시 60개', '9840', '50', '8809297283791', 'https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/2f63/638821258617326393110bf2f89f71d98fd2f315351032f658193ac7ac15.jpg'),
 ('293', '생활_가전', '리빙웰 프리미엄 나무젓가락 50개', '3760', '50', '8809297283792', 'https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/04/19/17/3/16285164-b9cd-4aed-8e0a-9a70935393b4.jpg'),
-('294', '생활_가전', '코멧 일회용 숟가락 100개', '4290', '50', '8809297283793', 'https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/c6b9/d3ebd32ba78994e218f99d531e0703027893498f7f6a3519bf6ba0073ea0.jpg');
+('294', '생활_가전', '코멧 일회용 숟가락 100개', '4290', '50', '8809297283793', 'https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/c6b9/d3ebd32ba78994e218f99d531e0703027893498f7f6a3519bf6ba0073ea0.jpg'),
 ('295', '스낵_가공', '롯데제과 오리지널 빼빼로', '1250', '50', '8801062637560', 'https://i.imgur.com/Tu94Dfq.jpeg'),
 ('296', '스낵_가공', '농심 신라면 낱봉', '1300', '50', '8801043014809', 'https://i.imgur.com/GyLAOZJ.jpeg'),
-('297', '스낵_가공', '프링글스 남미식 찹스테이크 맛', '2400', '50', '886467126796 ', 'https://i.imgur.com/2ikilSZ.png')
+('297', '스낵_가공', '프링글스 남미식 찹스테이크 맛', '2400', '50', '886467126796 ', 'https://i.imgur.com/2ikilSZ.png');
